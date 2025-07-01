@@ -17,5 +17,9 @@ public class Main {
         System.out.println("Number b = " + b);
 
         System.out.println("The Biggest number is = " + calc.biggestNumber(a,b));
+
+        System.out.println("Number a " + (calc.isEven(a)? "is Even" : "is Not Even"));
+        System.out.println("Number b " + (calc.isEven(b)? "is Even" : "is Not Even"));
+
         }
 }
