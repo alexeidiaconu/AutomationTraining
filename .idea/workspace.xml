@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4f9aecf-28c9-4297-870a-38a7dbc33b02" name="Changes" comment="added Biggest Number method">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/intoperations/IntOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/intoperations/IntOperations.java" afterDir="false" />
+    <list default="true" id="e4f9aecf-28c9-4297-870a-38a7dbc33b02" name="Changes" comment="added RandomString class with NullPointerException handling">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +27,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2zH1IkOn3uhYS4kCYOKpkDvS1W0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,10 +46,31 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/testingmdd_internship_spring_2021",
-    "onboarding.tips.debug.path": "C:/Project/test/src/main/java/org/alexeidiaconu/Main.java"
+    "last_opened_file_path": "C:/Project/test",
+    "onboarding.tips.debug.path": "C:/Project/test/src/main/java/org/alexeidiaconu/Main.java",
+    "settings.editor.selected.configurable": "preferences.intentionPowerPack"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.alexeidiaconu.exceptionshandling.Main" />
+      <module name="AutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.alexeidiaconu.exceptionshandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +96,47 @@
       <option name="project" value="LOCAL" />
       <updated>1751376683045</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added sum method">
+      <option name="closed" value="true" />
+      <created>1751380535301</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751380535301</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added sum method">
+      <option name="closed" value="true" />
+      <created>1751380631749</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751380631749</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added sum method">
+      <option name="closed" value="true" />
+      <created>1751380777098</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751380777098</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added sum method">
+      <option name="closed" value="true" />
+      <created>1751380795049</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751380795049</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added RandomString class with NullPointerException handling">
+      <option name="closed" value="true" />
+      <created>1751899550898</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751899550898</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +154,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="added Biggest Number method" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Biggest Number method" />
+    <MESSAGE value="added sum method" />
+    <MESSAGE value="added RandomString class with NullPointerException handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="added RandomString class with NullPointerException handling" />
   </component>
 </project>
