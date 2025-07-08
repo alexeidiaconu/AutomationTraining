@@ -11,18 +11,27 @@ public class Main {
 
         try{
 
-            if ((newFile = FileManager.createFileOnTheDisk()) != null) {
+            newFile = FileManager.createFileOnTheDisk();
+            createdFile =  new FileManager(newFile);
 
-                createdFile =  new FileManager(newFile);
-            }
         } catch (IOException ex){
             System.out.println("File creation error: " + ex.getMessage());
         }
 
-        System.out.print("Do you want to delete any file y/n :");
+            createdFile.writeToFile();
 
+        System.out.print("Do you want to print the file content? y/n :");
         Scanner keyboard = new Scanner(System.in);
         String inputOption = keyboard.nextLine();
+
+        if (inputOption.equals("y")) {
+            createdFile.printFileContent();
+        }
+
+        System.out.print("Do you want to delete any file y/n :");
+
+        keyboard = new Scanner(System.in);
+        inputOption = keyboard.nextLine();
 
         while (inputOption.equals("y")) {
 

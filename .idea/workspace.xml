@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4f9aecf-28c9-4297-870a-38a7dbc33b02" name="Changes" comment="added RandomString class with NullPointerException handling">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/filemanager/FileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/filemanager/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e4f9aecf-28c9-4297-870a-38a7dbc33b02" name="Changes" comment="added Read and Write to file methods in FileManager class with exception handling">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/filemanager/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/filemanager/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/filemanager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/filemanager/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751900540499</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added FileManager class with exception handling">
+      <option name="closed" value="true" />
+      <created>1751967424174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751967424174</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added Read and Write to file methods in FileManager class with exception handling">
+      <option name="closed" value="true" />
+      <created>1751973820325</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751973820325</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,7 +149,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="filemanager" />
                       </list>
                     </value>
                   </entry>
@@ -151,7 +166,9 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="added Biggest Number method" />
     <MESSAGE value="added RandomString class with NullPointerException handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="added RandomString class with NullPointerException handling" />
+    <MESSAGE value="added FileManager class with exception handling" />
+    <MESSAGE value="added Read and Write to file methods in FileManager class with exception handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Read and Write to file methods in FileManager class with exception handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
