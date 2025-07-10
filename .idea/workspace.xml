@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4f9aecf-28c9-4297-870a-38a7dbc33b02" name="Changes" comment="added Read and Write to file methods in FileManager class with exception handling">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/filemanager/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/filemanager/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/filemanager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/filemanager/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/library/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/library/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alexeidiaconu/library/LibraryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.LibraryManager.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.org.alexeidiaconu.filemanager.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -49,10 +52,24 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/testingmdd_internship_spring_2021",
-    "onboarding.tips.debug.path": "C:/Project/test/src/main/java/org/alexeidiaconu/Main.java"
+    "onboarding.tips.debug.path": "C:/Project/test/src/main/java/org/alexeidiaconu/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.org.alexeidiaconu.filemanager.Main">
+  <component name="RunManager" selected="Application.LibraryManager">
+    <configuration name="LibraryManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.alexeidiaconu.library.LibraryManager" />
+      <module name="AutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.alexeidiaconu.library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.alexeidiaconu.exceptionshandling.Main" />
       <module name="AutomationPractice" />
@@ -81,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryManager" />
         <item itemvalue="Application.org.alexeidiaconu.filemanager.Main" />
         <item itemvalue="Application.Main" />
       </list>
